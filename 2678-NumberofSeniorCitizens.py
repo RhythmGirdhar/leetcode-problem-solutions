@@ -1,3 +1,5 @@
+#Approach: We just slice the string to extract the age part of the detail. If age < 60, count them as senior citizen and add them. Return that count
+
 class Solution:
     def countSeniors(self, details: List[str]) -> int:
         count = 0

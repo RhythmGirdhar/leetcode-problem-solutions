@@ -1,3 +1,6 @@
+#Approach: I get the freq of occurrence of all strings in this list. I directly add the ones which are distinct. Then if k value is > the length of distinct elements, I return "" else 
+# I return the k th element in the list - 1 since list is 0 indexed 
+
 from collections import Counter
 class Solution:
     def kthDistinct(self, arr: List[str], k: int) -> str:
